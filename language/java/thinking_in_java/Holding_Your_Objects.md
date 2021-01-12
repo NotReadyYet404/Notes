@@ -14,4 +14,5 @@ hold objects (or rather, references to objects). The compiler-supported type is 
 which has been discussed before. An array is the most efficient way to hold a group of objects,
 and you're pointed towards this choice if you want to hold a group of primitives. But an array
 has a fixed size, and in the more general case, you won't know at the time you're writing the
-program how 
+program how many objects you are going to need, or whether you need a more sophisticated
+way to store your objects - so the fixed-sized constraint of an array is too limiting.
